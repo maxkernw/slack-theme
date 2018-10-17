@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 --text: white;
 }
 body {
-  font-family: Consolas, 'Courier New', monospace !important;
+
   /* src: url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); */
     text-rendering: optimizeLegibility important;
     font-weight: 500 !important;
@@ -71,7 +71,7 @@ span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--ca
 div.p-message_pane__foreword__description span {
     color: white;
     !important;
-    font-family: Consolas, 'Courier New', monospace !important;
+
     font-size: 15px;
     letter-spacing: 0.3px !important;
 }
@@ -148,7 +148,7 @@ ts-message .mention {
     color: black !important;
 }
 .btn {
-    background: #008952;
+    background: #e57373;
     color: #fff;
     line-height: 1.2rem;
     font-weight: 900;
@@ -208,13 +208,13 @@ ts-message .mention {
 }
 .upload_in_threads .inline_message_input_container:hover .inline_file_upload,
 .upload_in_threads.has_focus .inline_message_input_container .inline_file_upload {
-    background: #008952 !important;
-    border: 2px solid #008952 !important;
+    background: #e57373 !important;
+    border: 2px solid #e57373 !important;
     color: white !important;
 }
 #primary_file_button:hover {
-    border: 2px solid #006039 !important;
-    background: #006039 !important;
+    border: 2px solid #e57373 !important;
+    background: #e57373 !important;
 }
 #primary_file_button {
     position: absolute;
@@ -223,8 +223,8 @@ ts-message .mention {
     left: 0;
     width: 44px;
     padding: 0;
-    border: 2px solid #008952 !important;
-    background: #008952 !important;
+    border: 2px solid #e57373 !important;
+    background: #e57373 !important;
     color: white !important;
     line-height: 42px;
     text-shadow: none;
@@ -235,7 +235,7 @@ ts-message .mention {
     border-radius: 6px 0 0 6px;
 }
 .inline_file_upload {
-    background: #008952 !important;
+    background: #e57373 !important;
     color: white !important;
 }
 .p-share_dialog_message_input {
@@ -444,12 +444,12 @@ p-search_filter__date:first-child {
     color: white;
 }
 .c-message--light .c-message__sender .c-message__sender_link {
-    color: #a4d677 !important;
+    color: #e57373 !important;
     font-weight: 700 !important;
     font-size: 15px !important;
 }
 .light_theme ts-message .message_content .message_sender {
-    color:  #a4d677 !important;
+    color:  #e57373 !important;
     text-transform: capitalize;
     font-weight: 700 !important;
 }
@@ -458,6 +458,9 @@ p-search_filter__date:first-child {
 }
 .p-download_item__container .p-download_item__name_row{
     color:white !important
+}
+.p-channel_sidebar__channel--im .c-presence--active {
+    color: #e57373 !important;
 }
 .p-download_item:hover{
     border:none !important
